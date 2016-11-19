@@ -3,8 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <script src="static/jquery/jquery-3.1.1.js"></script>
+    <script src="static/bootstrap-4.0.0-alpha.5-dist/js/bootstrap.js"></script>
+    <script src="static/js/resume.js"></script>
+    <link rel="stylesheet" type="text/css" href="static/bootstrap-4.0.0-alpha.5-dist/css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="static/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="static/css/equal-height-cols.css">
+    <link rel="stylesheet" type="text/css" href="static/css/custom.css">
 </head>
 <body>
-    <h1>test1</h1>
+<div id="site-wrapper">
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Curriculum Vitae</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container content">
+        <div class="row row-eq-height">
+            <div class="col-lg-4 social-col">
+                <div class="contact-panel">
+                    <img src="static/img/photo.png" class="img-fluid photo rounded">
+                    <div class="social-wrapper">
+                        <a href="http://linkedin.com"><i class="fa fa-linkedin-square social-icon fa-3x"
+                                                         aria-hidden="true"></i></a>
+                        <a href="http://github.com"><i class="fa fa-github-square social-icon fa-3x"
+                                                       aria-hidden="true"></i></a>
+                        <a href="mailto:mihal160[at]gmail.com"><i class="fa fa fa-envelope-square social-icon fa-3x"
+                                                                  aria-hidden="true"></i></a>
+                        <a href="callto:604844303"><i class="fa fa-phone-square social-icon fa-3x"
+                                                      aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 info-col">
+                <div class="information-row row">
+                    <h2>About_me {</h2>
+                    <div class="col-md-12">
+                        <p class="attribute">I'm Michał - Computer Sciences Student. Solution finding is a thing I love doing. I also like learning new things and challenges.</p>
+                    </div>
+                    <h2>}</h2>
+                </div>
+                <div class="information-row row">
+                    <h2>Personal_data {</h2>
+                    <div class="col-md-4">
+                        <p class="attribute">Name:</p>
+                        <p class="attribute">Last name:</p>
+                        <p class="attribute">Birthdate:</p>
+                        <p class="attribute">Adress:</p>
+                        <p class="attribute">Phone number:</p>
+                        <p class="attribute">E-mail:</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="attribute">Michał</p>
+                        <p class="attribute">Fabiański</p>
+                        <p class="attribute">28.09.1994</p>
+                        <p class="attribute">Jarzębinowa 24/24 Białystok</p>
+                        <p class="attribute">604 844 303</p>
+                        <a href="mailto:mihal160[at]gmail.com"><p class="attribute">mihal160[at]gmail.com</p></a>
+                    </div>
+                    <h2>}</h2>
+                </div>
+                <div class="information-row row">
+                    <h2>Education {</h2>
+                    <div class="col-md-4">
+                        <p class="attribute">2013 - now</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="attribute">Wydział Informatyki Politechniki Białostockiej - Informatyka</p>
+                    </div>
+                    <h2>}</h2>
+                </div>
+                <div class="information-row row">
+                    <h2>Experience {</h2>
+                    <div class="col-md-4">
+                        <p class="attribute">July 2016</p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="attribute">Monthly practice at CFT Polska sp. z o.o.</p>
+                    </div>
+                    <h2>}</h2>
+                </div>
+                <div class="information-row row">
+                    <h2>Skills {</h2>
+                    <div class="col-md-12">
+                        <div class="sub-info-row row">
+                            <h3>Programming {</h3>
+                            <div class="col-sm-4">
+                                <p class="attribute">Java:</p>
+                                <p class="attribute">Python:</p>
+                                <p class="attribute">JavaScript:</p>
+                                <p class="attribute">C++:</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="attribute">Java 8, JEE, Spring, Vaadin, JavaFX, JSF, Hibernate</p>
+                                <p class="attribute">Django</p>
+                                <p class="attribute">JQuery, Angular</p>
+                                <p class="attribute">STL</p>
+                            </div>
+                            <h3>}</h3>
+                        </div>
+                        <div class="sub-info-row row">
+                            <h3>Software_Development {</h3>
+                            <div class="col-sm-4">
+                                <p class="attribute">Agile:</p>
+                                <p class="attribute">Architectures:</p>
+                                <p class="attribute">Version control:</p>
+                                <p class="attribute">Other:</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="attribute">Scrum, JIRA</p>
+                                <p class="attribute">Basic knowledge of: REST, Cloud, Microservices</p>
+                                <p class="attribute">Git, SVN</p>
+                                <p class="attribute">UML 2.0</p>
+                            </div>
+                            <h3>}</h3>
+                        </div>
+                        <div class="sub-info-row row">
+                            <h3>Administration {</h3>
+                            <div class="col-sm-4">
+                                <p class="attribute">OS:</p>
+                                <p class="attribute">Application Servers:</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="attribute">Windows, Linux</p>
+                                <p class="attribute">Glassfish, Tomcat</p>
+                            </div>
+                            <h3>}</h3>
+                        </div>
+                        <div class="sub-info-row row">
+                            <h3>Languages {</h3>
+                            <div class="col-sm-4">
+                                <p class="attribute">English:</p>
+                                <p class="attribute">German:</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <p class="attribute">Fluent</p>
+                                <p class="attribute">Basic</p>
+                            </div>
+                            <h3>}</h3>
+                        </div>
+                        <div class="sub-info-row row">
+                            <h3>Other {</h3>
+                            <div class="col-sm-12">
+                                <p class="attribute">Design patterns</p>
+                                <p class="attribute">SQL</p>
+                                <p class="attribute">HTML</p>
+                                <p class="attribute">CSS</p>
+                            </div>
+                            <h3>}</h3>
+                        </div>
+                    </div>
+                    <h2>}</h2>
+                </div>
+                <div class="information-row row">
+                    <h2>Hobbies {</h2>
+                    <div class="col-md-12">
+                        <p class="attribute">Technology</p>
+                        <p class="attribute">Astronomy</p>
+                        <p class="attribute">Video Games</p>
+                        <p class="attribute">Machine Learning</p>
+                    </div>
+                    <h2>}</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="normal-text">Michał Fabiański 2016</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,73 @@
+#footer{
+    padding: 2%;
+    background-color: #4e79a5;
+    border-top: solid lightgray thick;
+}
+#header{
+    padding: 2%;
+    background-color: #4e79a5;
+    border-bottom: solid lightgray thick;
+}
+.social-col{
+    background-color: #484a4d;
+    padding-top: 2%;
+    text-align: center;
+}
+.social-wrapper{
+    margin: 5%;
+}
+.social-icon{
+    color: #4e79a5;
+}
+.social-icon:hover{
+    color: whitesmoke;
+}
+.info-col{
+    background-color: #2b2d2f;
+    padding-top: 3%;
+}
+.information-row{
+    background-color: #303234;
+    margin-bottom: 5%;
+    padding-left: 2%;
+    /*border-top: solid thin black;*/
+    /*border-bottom: solid thin black;*/
+}
+.sub-info-row{
+    background-color: #343638;
+    margin-bottom: 3%;
+    padding-left: 2%;
+}
+.contact-panel{
+    /*position: fixed;*/
+}
+.content{
+
+}
+.site-wrapper{
+    background-color: gray;
+}
+.attribute{
+    color: #c3d2e2;
+}
+.normal-text{
+    color: lightgray;
+}
+h1{
+    font-size: 450%;
+    color: lightgray;
+}
+h2{
+    font-size: 150%;
+    color: lightgray;
+}
+h3{
+    font-size: 120%;
+    color: lightgray;
+}
+p{
+    
+}
+body{
+    background-color: lightgray;
+}
