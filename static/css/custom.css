@@ -1,37 +1,46 @@
 #footer{
     padding: 2%;
-    background-color: #4e79a5;
+    background-color: #5f89ad;
     border-top: solid lightgray thick;
 }
 #header{
     padding: 2%;
-    background-color: #4e79a5;
+    background-color: #5f89ad;
     border-bottom: solid lightgray thick;
+}
+.photo{
+    width: 50%;
+    height: 50%;
+    border: medium #5f89ad solid;
 }
 .social-col{
     background-color: #484a4d;
     padding-top: 2%;
     text-align: center;
 }
+.social-col-ornament{
+    color: #2b2d2f;
+}
 .social-wrapper{
     margin: 5%;
 }
 .social-icon{
-    color: #4e79a5;
+    color: #5f89ad;
 }
 .social-icon:hover{
-    color: whitesmoke;
+    color: lightgray;
 }
 .info-col{
     background-color: #2b2d2f;
     padding-top: 3%;
 }
+.information-icon{
+    color: #5f89ad;
+    margin-bottom: 1%;
+}
 .information-row{
     background-color: #303234;
-    margin-bottom: 5%;
-    padding-left: 2%;
-    /*border-top: solid thin black;*/
-    /*border-bottom: solid thin black;*/
+    margin-bottom: 2%;
 }
 .sub-info-row{
     background-color: #343638;
@@ -44,11 +53,18 @@
 .content{
 
 }
+.return-btn{
+    margin-bottom: 2%;
+    background-color: #484a4d;
+    border: none;
+    color: #303234;
+}
 .site-wrapper{
     background-color: gray;
 }
 .attribute{
     color: #c3d2e2;
+    padding-left: 4%;
 }
 .normal-text{
     color: lightgray;
@@ -60,10 +76,12 @@ h1{
 h2{
     font-size: 150%;
     color: lightgray;
+    padding-left: 2%;
 }
 h3{
     font-size: 120%;
     color: lightgray;
+    padding-left: 2%;
 }
 p{
     
