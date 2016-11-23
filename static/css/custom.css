@@ -64,8 +64,10 @@
 }
 .attribute{
     color: #c3d2e2;
-    padding-left: 4%;
+    /*padding-left: 2%;*/
+    padding-left: 0.5cm;
 }
+
 .normal-text{
     color: lightgray;
 }
